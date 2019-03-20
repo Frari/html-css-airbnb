@@ -2,8 +2,12 @@
 
 body{background-color: #333;}
 
-.img1, .img2, .img3{width: 50vw;
-height: 50vh;
+.container{width: 100vw;
+height: 100vh;
+position: relative;}
+
+.img1, .img2, .img3{width: 100vw;
+height: 33.3vh;
 background-size: cover;
 border: 2px solid white;
 position: relative;}
