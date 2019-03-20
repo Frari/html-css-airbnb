@@ -1,0 +1,23 @@
+* {box-sizing: border-box;}
+
+body{background-color: #333;}
+
+.img1, .img2, .img3{width: 50vw;
+height: 50vh;
+background-size: cover;
+border: 2px solid white;
+position: relative;}
+
+.img1{background-image: url(img/lecce.jpg);}
+
+.img2{background-image: url(img/vienna.jpg);}
+
+.img3{background-image: url(img/granada.jpg);}
+
+span{color: white;
+font-size: 50px;
+position: absolute;
+left: 50%;
+top: 50%;
+transform: translate(-50%, -50%);
+text-shadow: 1px 1px black;}
